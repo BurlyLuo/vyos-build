@@ -18,7 +18,7 @@ jobs:
     container:
       image: vyos/vyos-build:sagitta
       env:
-        TZ: Australia/Shanghai
+        TZ: Aisa/Shanghai
       options: --privileged
 
     steps:
